@@ -7,7 +7,15 @@
 - Copy .env.example to .env
 
     `cp .env.example .env`
+    
+- Generate application key
+
+    `php artisan key:generate`
   
+- Install dependencies
+
+    `compose instsall`
+    
  - Run docker
  
     `docker-compose up -d`
